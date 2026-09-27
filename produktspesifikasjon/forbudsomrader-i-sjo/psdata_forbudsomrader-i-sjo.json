@@ -1,0 +1,379 @@
+{
+  "overview": "Denne produktspesifikasjonen er autogenerert fra metadata i Geonorge og datamodell fra SOSI modellregister og/eller OGC API Features. Noe ekstra informasjon kan ha blitt lagt til gjennom manuell prosess. Produktspesifikasjonen er i henhold til standarden: 'Geografisk informasjon - Dataproduktspesifikasjoner' (ISO19131:2022)",
+  "title": "Forbudsområder i sjø",
+  "format": "text/html",
+  "date": {
+    "creation": "2020-12-22",
+    "revision": "2024-11-12"
+  },
+  "language": "nor",
+  "contact": {
+    "individualName": "Forsvarsbygg Eiendomsforvaltning Arealplan",
+    "organizationName": "Forsvarsbygg",
+    "logo": "https://register.geonorge.no/data/organizations/975950662_FB_logo.png",
+    "electronicMailAddress": "postmottak@forsvarsbygg.no",
+    "role": "owner"
+  },
+  "identificationSection": {
+    "title": "Forbudsområder i sjø",
+    "abstract": "Datasett i henhold til Forskrift om Forbudsområder i sjø. \nLink til forskriften:\nhttps://lovdata.no/dokument/LTI/forskrift/2024-06-24-1311.\n\nForskriften eies av Forsvarsdepartementet. Forsvarsbygg ivaretar Forsvarets arealbruksinteresser i arealplansammenheng, og det er derfor Forsvarsbygg som distribuerer datasettet i Geonorge.",
+    "purpose": {
+      "summary": "Datasettet representerer de geografiske områdene som er angitt i forskriften, og formidles i Geonorge for lettere å ivareta Forsvarets arealbruksinteresser.",
+      "useCase": {
+        "name": "Bruksområde",
+        "summary": "Datasettet er relevant i arealplanarbeid i kystnære strøk, slik som kommuneplaner og fylkesplaner"
+      }
+    },
+    "topicCategory": [
+      "Militære data"
+    ],
+    "spatialRepresentationType": "Vektor",
+    "spatialResolution": {
+      "equivalentScale": "5"
+    },
+    "supplementalInformation": "Datasettet inneholder de forbudsområdene som er angitt i forskriften.",
+    "uniqueId": "https://data.geonorge.no/sosi/arealbruk/forbudsomrader_sjo",
+    "keyword": [
+      "sjø",
+      "forbudsområder",
+      "forsvaret",
+      "Norge digitalt",
+      "geodataloven",
+      "Det offentlige kartgrunnlaget",
+      "fellesDatakatalog",
+      "Samfunnssikkerhet",
+      "MilitærtForbudsområdeSjø",
+      "GenerelleEgenskaperForbudsområder",
+      "ForbudsområdeGrense",
+      "navnForbudsområde",
+      "unntak",
+      "forskrift",
+      "grense"
+    ],
+    "restriction": {
+      "legalConstraints": {
+        "accessConstraints": "Åpne data",
+        "useConstraints": "Lisens",
+        "license": "No conditions apply to access and use",
+        "licenseUrl": "http://inspire.ec.europa.eu/metadata-codelist/ConditionsApplyingToAccessAndUse/noConditionsApply"
+      },
+      "securityConstraints": {
+        "classification": "Ugradert"
+      }
+    },
+    "contact": [
+      {
+        "individualName": "Forsvarsbygg Eiendomsforvaltning Arealplan",
+        "organizationName": "Forsvarsbygg",
+        "electronicMailAddress": "postmottak@forsvarsbygg.no",
+        "role": "owner"
+      },
+      {
+        "individualName": "Forsvarsbygg Ressurssenteret Informasjonsforvaltning Geomatikk",
+        "organizationName": "Forsvarsbygg",
+        "electronicMailAddress": "geomatikk@forsvarsbygg.no",
+        "role": "pointOfContact"
+      },
+      {
+        "individualName": "Forsvarsbygg Ressurssenteret Informasjonsforvaltning Geomatikk",
+        "organizationName": "Forsvarsbygg",
+        "electronicMailAddress": "geomatikk@forsvarsbygg.no",
+        "role": "publisher"
+      }
+    ],
+    "maintenance": "Etter behov",
+    "extent": {
+      "geographicElement": {
+        "westBoundLongitude": "2.0",
+        "eastBoundLongitude": "33.0",
+        "southBoundLatitude": "57.0",
+        "northBoundLatitude": "72.0"
+      },
+      "temporalElement": {
+        "timePeriod": {
+          "beginPosition": "2020-12-22",
+          "endPosition": "2024-11-12"
+        }
+      }
+    },
+    "date": {
+      "creation": "2020-12-22",
+      "publication": "2020-12-22",
+      "revision": "2024-11-12"
+    },
+    "language": "nor"
+  },
+  "scopeSection": [
+    {
+      "specificationScope": {
+        "scopeIdentification": "Hele datasettet",
+        "level": "dataset",
+        "levelDescription": "Gjelder hele datasettet. Hvis omfang ikke er oppgitt under en overskrift, gjelder teksten for hele datasettet og alle leveranser"
+      }
+    },
+    {
+      "specificationScope": {
+        "scopeIdentification": "UML-modell",
+        "level": "dataset"
+      }
+    }
+  ],
+  "referenceSystemSection": {
+    "spatialReferenceSystem": [
+      {
+        "code": "EPSG:25833",
+        "name": "EUREF89 UTM sone 33, 2d"
+      },
+      {
+        "code": "EPSG:3035",
+        "name": "EUREF89 / ETRS89-LAEA Europe"
+      },
+      {
+        "code": "EPSG:4258",
+        "name": "EUREF 89 Geografisk (ETRS 89) 2d"
+      },
+      {
+        "code": "EPSG:25833",
+        "name": "EUREF89 UTM sone 33, 2d"
+      }
+    ]
+  },
+  "dataQualitySection": {
+    "scope": {
+      "level": "dataset"
+    },
+    "report": [
+      {
+        "nameOfMeasure": "SOSI produktspesifikasjon: Militære forbudsområder innen sjøforsvaret",
+        "descriptiveResult": "Dataene er i henhold til produktspesifikasjonen"
+      },
+      {
+        "nameOfMeasure": "Sosi applikasjonsskjema",
+        "descriptiveResult": "SOSI-filer er i henhold til applikasjonsskjema"
+      },
+      {
+        "nameOfMeasure": "Sosi applikasjonsskjema",
+        "descriptiveResult": "GML-filer er i henhold til applikasjonsskjema"
+      },
+      {
+        "nameOfMeasure": "Prosentvis dekning i forhold til datasettets utstrekning",
+        "measureDescription": "Datasettets faktiske kartlagte areal i forhold til datasettets spesifiserte utstrekning",
+        "result": "100%"
+      },
+      {
+        "nameOfMeasure": "Prosentvis oppfyllelse av FAIR-prinsipper",
+        "measureDescription": "Angir fullstendighet i forhold til krav fra FAIR-prinsippene (The FAIR Guiding Principles for scientific data management and stewardship)",
+        "result": "100"
+      }
+    ]
+  },
+  "maintenanceSection": {
+    "maintenanceAndUpdateFrequency": "Etter behov",
+    "maintenanceAndUpdateStatement": "Fullført"
+  },
+  "dataCaptureAndProductionSection": {
+    "DataAcquisitionAndProcessing": {
+      "processStep": [
+        {
+          "description": "Militære forbudsområder innen sjøforsvaret er gått gjennom flere prosesser. Data er gjennomgått av Forsvaret, og den følger forskriften fra lovdata med fastsatte koordinater og beskrivelse. Forskriften er hjemlet i Sikkerhetslovens §7-5. Forskriften skal legge til rette for en effektiv kontroll med ferdsel i og omkring viktige områder for Forsvaret."
+        }
+      ]
+    }
+  },
+  "portrayal": {
+    "name": "Tegneregler",
+    "linkage": "https://register.geonorge.no/register/versjoner/tegneregler/forsvarsbygg/militære-forbudsområder-innen-sjøforsvaret"
+  },
+  "deliverySection": [
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "landsfiler",
+          "deliveryMediumName": "Geonorge nedlastning",
+          "deliveryService": {
+            "serviceEndpoint": "https://nedlasting.geonorge.no/api/capabilities/",
+            "serviceProperty": {
+              "type": "Geonorge nedlastning",
+              "value": "GEONORGE:DOWNLOAD"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "FGDB"
+          },
+          {
+            "formatName": "GML"
+          },
+          {
+            "formatName": "PostGIS"
+          },
+          {
+            "formatName": "SOSI"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "landsfiler",
+          "deliveryMediumName": "Atom Feed",
+          "deliveryService": {
+            "serviceEndpoint": "http://nedlasting.geonorge.no/geonorge/ATOM-feeds/MilitereForbudsomraderSjo_AtomFeedFGDB.xml",
+            "serviceProperty": {
+              "type": "Atom Feed",
+              "value": "W3C:AtomFeed"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "FGDB"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "landsfiler",
+          "deliveryMediumName": "Atom Feed",
+          "deliveryService": {
+            "serviceEndpoint": "http://nedlasting.geonorge.no/geonorge/ATOM-feeds/MilitereForbudsomraderSjo_AtomFeedGML.xml",
+            "serviceProperty": {
+              "type": "Atom Feed",
+              "value": "W3C:AtomFeed"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "GML"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "landsfiler",
+          "deliveryMediumName": "Atom Feed",
+          "deliveryService": {
+            "serviceEndpoint": "http://nedlasting.geonorge.no/geonorge/ATOM-feeds/MilitereForbudsomraderSjo_AtomFeedPostGIS.xml",
+            "serviceProperty": {
+              "type": "Atom Feed",
+              "value": "W3C:AtomFeed"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "PostGIS"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "unitsOfDelivery": "landsfiler",
+          "deliveryMediumName": "Atom Feed",
+          "deliveryService": {
+            "serviceEndpoint": "http://nedlasting.geonorge.no/geonorge/ATOM-feeds/MilitereForbudsomraderSjo_AtomFeedSOSI.xml",
+            "serviceProperty": {
+              "type": "Atom Feed",
+              "value": "W3C:AtomFeed"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "SOSI"
+          }
+        ]
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "Forbudsområder i sjø WMS",
+          "deliveryService": {
+            "serviceEndpoint": "https://wms.geonorge.no/skwms1/wms.militereforbudsomradersjo?service=wms&request=getcapabilities",
+            "serviceProperty": {
+              "type": "Forbudsområder i sjø WMS",
+              "value": "WMS-tjeneste"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "PNG"
+          }
+        ],
+        "deliveryScope": "Tjeneste"
+      }
+    },
+    {
+      "delivery": {
+        "deliveryMedium": {
+          "deliveryMediumName": "GeoPackage: uml-modell",
+          "deliveryService": {
+            "serviceEndpoint": "https://raw.githubusercontent.com/ToreFreddyB/produktspesifikasjon_forsvarsbygg/main/produktspesifikasjon/forbudsomrader-i-sjo/uml-modell/uml-modell.gpkg",
+            "serviceProperty": {
+              "type": "Fil",
+              "value": "Nedlasting"
+            }
+          }
+        },
+        "deliveryFormat": [
+          {
+            "formatName": "GPKG"
+          }
+        ]
+      }
+    }
+  ],
+  "metadataSection": {
+    "metadataStandard": "ISO19115",
+    "metadataStandardVersion": "2003",
+    "metadataDate": "2026-09-27",
+    "language": "nor",
+    "contact": {
+      "organizationName": "Forsvarsbygg",
+      "individualName": "Forsvarsbygg Ressurssenteret Informasjonsforvaltning Geomatikk",
+      "logo": "https://register.geonorge.no/data/organizations/975950662_FB_logo.png",
+      "electronicMailAddress": "geomatikk@forsvarsbygg.no",
+      "role": "pointOfContact"
+    },
+    "metadataIdentifier": {
+      "authority": "Geonorge",
+      "code": "35ef918f-ecb2-47ac-953b-1479dc5579c9",
+      "codeSpace": "https://kartkatalog.geonorge.no/metadata/",
+      "metadataLinkage": "https://kartkatalog.geonorge.no/metadata/35ef918f-ecb2-47ac-953b-1479dc5579c9"
+    }
+  },
+  "additionalReferences": [
+    {
+      "title": "Produktark",
+      "href": "https://register.geonorge.no/register/versjoner/produktark/forsvarsbygg/militære-forbudsområder-innen-sjøforsvaret"
+    }
+  ],
+  "chapterAutofill": {
+    "om_spesifikasjonen": 10,
+    "om_produktet": 93,
+    "formaal": 20,
+    "bruksomraade": 13,
+    "omfang": 24,
+    "datainnhold_og_struktur": 0,
+    "referansesystem": 24,
+    "datakvalitet": 70,
+    "datafangst_og_produksjon": 49,
+    "vedlikehold": 3,
+    "presentasjon": 2,
+    "leveranse": 61,
+    "metadata": 16,
+    "tilleggsinformasjon": 11,
+    "datamodell": 382
+  }
+}
