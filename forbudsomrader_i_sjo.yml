@@ -1,0 +1,10 @@
+metadataId: 35ef918f-ecb2-47ac-953b-1479dc5579c9
+output_directory: produktspesifikasjon
+product_slug: forbudsomrader_i_sjo
+updated: '2026-09-27'
+outputs: geopackage
+scopes:
+- name: UML-modell
+  url: https://sosi.geonorge.no/svn/SOSI/SOSI%20Del%203/Forsvarsbygg/Milit%c3%a6re%20forbudsomr%c3%a5der%20i%20sj%c3%b8_20210301.xml
+  generator: xmi
+  description: ''
