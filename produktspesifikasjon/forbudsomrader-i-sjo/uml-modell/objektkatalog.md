@@ -330,7 +330,7 @@ Egenskaper
     </tr>
     <tr>
       <th scope="row">Tillatte verdier:</th>
-      <td>- Kodeliste: <a href="https://register.geonorge.no/sosi-kodelister/malemetode.xml">https://register.geonorge.no/sosi-kodelister/malemetode.xml</a></td>
+      <td>- Kodeliste: <a href="https://register.geonorge.no/sosi-kodelister/generelle-konsepter/5.1/m%C3%A5lemetode">https://register.geonorge.no/sosi-kodelister/generelle-konsepter/5.1/m%C3%A5lemetode</a></td>
     </tr>
   </tbody>
 </table>
@@ -388,7 +388,7 @@ Profilparametre i tagged values
     </tr>
     <tr>
       <th scope="row">codeList</th>
-      <td><a href="https://register.geonorge.no/sosi-kodelister/malemetode.xml">https://register.geonorge.no/sosi-kodelister/malemetode.xml</a></td>
+      <td><a href="https://register.geonorge.no/sosi-kodelister/generelle-konsepter/5.1/m%C3%A5lemetode">https://register.geonorge.no/sosi-kodelister/generelle-konsepter/5.1/m%C3%A5lemetode</a></td>
     </tr>
   </tbody>
 </table>

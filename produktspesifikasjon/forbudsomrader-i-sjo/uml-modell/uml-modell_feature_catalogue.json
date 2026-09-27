@@ -135,7 +135,7 @@
               "kind": "codelist",
               "definition": "metode som ligger til grunn for registrering av posisjon\n\n\n-- Definition - -\nmethod on which registration of position is based",
               "asDictionary": "true",
-              "codeList": "https://register.geonorge.no/sosi-kodelister/malemetode.xml"
+              "codeList": "https://register.geonorge.no/sosi-kodelister/generelle-konsepter/5.1/m%C3%A5lemetode"
             }
           }
         ]
